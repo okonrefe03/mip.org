@@ -33,9 +33,15 @@ header a.active {
           text-align: left;
         }
         .header-right {
-            float: none;
+            float: none;            
         }
-        }
+    header a:hover {
+    background-color: #ddd;
+    color: black;}
+header a.active {
+        background-color: dodgerblue;
+        color: rgb(133, 105, 105);
+      }
 
 section h3{
     border-top: 2px solid lightblue;
