@@ -4,117 +4,146 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>welcom to wix.com</title>
+    <meta name="description" content="Welcome to Wix - Professional website design and hosting services with SEO optimization and free web hosting.">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Welcome to Wix.com - Website Design & Hosting</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+    
     <header>
-        <a href="wix-alternative-logo.png" download>
-            <img src="wix-alternative-logo.png" alt="logo" width="80px" height="40px"></a>
-        <div class="header-right">
+        <div class="logo-container">
+            <img src="wix-alternative-logo.png" alt="Wix Logo" width="80" height="40">
+        </div>
+        <nav class="header-right">
             <a class="active" href="#home">Home</a>
-            <a href="#contact">Contact</a>
+            <a href="#services">Services</a>
             <a href="#about">About</a>
             <a href="#signup">Signup</a>
-        </div>
+        </nav>
     </header>
-    <main>
-        <h2> Welcome to wix.com</h2>
-        <a href="wix-alternative-logo.png" download>
-            <img src="wix-alternative-logo.png" alt="logo">
-        </a>
-        <section class="services" id="services">
-            <h3>Benifits</h3>
-            <p><img src="images/img2.jpg" alt="Mike" style="width:25%" height="20%"></p>
-            Have ur website display on google search engins with our great search engin optimisation feature.
-            <p><img src="images/img4.jpg" alt="John" style="width:25%" height="20%"></p>
-            Save money on hireing website developes .
-            <p><img src="images/img4.jpg" alt="John" style="width:25%" height="20%"></p>
-            Easy fix and positioning of elements on webpages .
-            <p><img src="images/img4.jpg" alt="John" style="width:25%" height="20%"></p>
-            Free Web Hosting.
-            
-        </section>
-    </main>
-    <section class="partners">
-        <h3>Known Partners</h3>
-        <p>Genisis</p>
-        <p>The famous Shoprite</p>
-        <p>The Revised W3 schools website</p>
-    </section>
-    <section>
-        
-    </section>
-    <section id="about">
-        <h3>Meet The EMployees </h3>
-        <div class="row">
-            <div class="column">
-                <div class="card">
-                    <img src="images/img1.jpg" alt="Jane" style="width:100%">
-                    <div class="container">
-                        <h2>Joses</h2>
-                        <p class="title">CEO &amp; Founder</p>
-                        <p>The Operating CEO of the company who comes up with the ideas on hundreds of our themes.</p>
-                        <p>josesj00@gmail.com</p>
-                        <p><button class="button">Contact</button></p>
-                    </div>
-                </div>
-            </div>
 
-            <div class="column">
-                <div class="card">
-                    <img src="images/img4.jpg" alt="Mike" style="width:100%">
-                    <div class="container">
-                        <h2>Jason </h2>
-                        <p class="title">Art Director</p>
-                        <p>Our front end developer who ensures ur page looks awesome.       </p>
-                        <p>josesj00@gmail.com</p>
-                        <p><button class="button">Contact</button></p>
-                    </div>
+    <main id="main">
+        <section id="home" class="hero">
+            <h1>Welcome to Wix.com</h1>
+            <img src="wix-alternative-logo.png" alt="Wix - Professional Website Design Platform">
+        </section>
+
+        <section class="services" id="services">
+            <h2>Benefits</h2>
+            <div class="benefits-container">
+                <div class="benefit-item">
+                    <img src="images/img2.jpg" alt="Search engine optimization benefit" width="200">
+                    <p>Have your website display on Google search engines with our great search engine optimization feature.</p>
+                </div>
+                <div class="benefit-item">
+                    <img src="images/img3.jpg" alt="Save money on web development" width="200">
+                    <p>Save money on hiring website developers.</p>
+                </div>
+                <div class="benefit-item">
+                    <img src="images/img4.jpg" alt="Easy element positioning and fixing" width="200">
+                    <p>Easy fix and positioning of elements on webpages.</p>
+                </div>
+                <div class="benefit-item">
+                    <img src="images/img5.jpg" alt="Free web hosting included" width="200">
+                    <p>Free Web Hosting.</p>
                 </div>
             </div>
+        </section>
+
+        <section class="partners" id="partners">
+            <h2>Known Partners</h2>
+            <ul>
+                <li>Genesis</li>
+                <li>Shoprite</li>
+                <li>W3 Schools</li>
+            </ul>
+        </section>
+
+        <section id="about">
+            <h2>Meet The Team</h2>
+            <div class="row">
+                <div class="column">
+                    <article class="card">
+                        <img src="images/img1.jpg" alt="Joses, CEO and Founder" width="100%">
+                        <div class="container">
+                            <h3>Joses</h3>
+                            <p class="title">CEO &amp; Founder</p>
+                            <p>The Operating CEO of the company who comes up with the ideas on hundreds of our themes.</p>
+                            <p><a href="mailto:joses@example.com">Contact Joses</a></p>
+                        </div>
+                    </article>
+                </div>
 
                 <div class="column">
-                    <div class="card">
-                        <img src="images/img4.jpg" alt="John" style="width:100%">
+                    <article class="card">
+                        <img src="images/img2.jpg" alt="Jason, Art Director" width="100%">
                         <div class="container">
-                            <h2>Jewel</h2>
+                            <h3>Jason</h3>
+                            <p class="title">Art Director</p>
+                            <p>Our front end developer who ensures your page looks awesome.</p>
+                            <p><a href="mailto:jason@example.com">Contact Jason</a></p>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="column">
+                    <article class="card">
+                        <img src="images/img3.jpg" alt="Jewel, Designer" width="100%">
+                        <div class="container">
+                            <h3>Jewel</h3>
                             <p class="title">Designer</p>
                             <p>Our designer who ensures that all pages look unique.</p>
-                            <p>josesj00@gmail.com</p>
-                            <p><button class="button">Contact</button></p>
+                            <p><a href="mailto:jewel@example.com">Contact Jewel</a></p>
                         </div>
-                    </div>
+                    </article>
                 </div>
-        </div>
-    <a href="#about">About us </a>
-    <a href="#services">Services </a>
-    <div class="section">
-    <div id="Signup">
-            <div class="signupform">
-        <form action="http://www.wix.com/html/action_page.php">
-            First name:<br>
-            <input type="text" name="firstname" value="">
-            <br>
-            Last name:<br>
-            <input type="text" name="lastname" value="">
-            <br><br>
-            <input type="submit" value="Submit">
-          </form>
-          </div> 
-    </div>
-    </div>
-    </section>
-    <footer>
-        Contact us @: <a href="mailto: josesj00@gmail.com">
-        josesj00@gmail.com</a>
-       <span>
-            <div class="footer-wrap">
-                <div class="title">Follow us at:</div>
-                <div class="icon"><a href="icons8-facebook-32.png"><img src="icons8-facebook-32.png"></a> </div>
-                <div class="icon"><a href="icons8-windows-10-32.png"><img src="icons8-windows-10-32.png"></a> </div>
             </div>
-        </span>
+        </section>
+
+        <section id="signup">
+            <h2>Join Us Today</h2>
+            <div class="signupform">
+                <form action="/api/signup" method="POST">
+                    <div class="form-group">
+                        <label for="firstname">First Name:</label>
+                        <input type="text" id="firstname" name="firstname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" id="lastname" name="lastname" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <button type="submit" value="Submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <p>Contact us: <a href="mailto:josesj00@gmail.com">josesj00@gmail.com</a></p>
+            </div>
+            <div class="footer-wrap">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://facebook.com" aria-label="Follow us on Facebook">
+                        <img src="icons8-facebook-32.png" alt="Facebook">
+                    </a>
+                    <a href="https://twitter.com" aria-label="Follow us on Twitter">
+                        <img src="icons8-twitter-32.png" alt="Twitter">
+                    </a>
+                </div>
+            </div>
+            <p>&copy; 2026 Wix.com. All rights reserved.</p>
+        </div>
     </footer>
 </body>
 </html>
